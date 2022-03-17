@@ -30,6 +30,12 @@ body > * {
 	padding: 1em 6%;
 }
 
+@media (min-width:60em) {
+		body {
+			font-size: 1.125em;
+		}
+	}
+
 h1 {
 	color: white;
 	font-size: 1.125em;
@@ -84,12 +90,13 @@ footer .copy {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
+		margin: 1.5% 0 0.4em;
 		max-height: 3em;
 		max-width: 40em;
 	}
 }
 
-@media (min-width:60em) {
+@media (min-width:70em) {
 	footer .copy {
 		bottom: 1.5em;
 		position: absolute;
